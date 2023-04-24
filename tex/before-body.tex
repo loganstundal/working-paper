@@ -1,18 +1,26 @@
 \begin{titlepage}
-\title{
-    $title$
-    \thanks{$title_note$}
-    }
-\author{
-    $author$ \thanks{$author_affiliation$, \href{mailto:$author_email$}{$author_email$}}
-    } 
+\title{$title$$if(title_note)$\thanks{$title_note$}$endif$ }
+
+\author{$for(authors)$
+                $it.name.literal$%
+                $if(it.email)$
+                        \thanks{%
+                          %$it.affiliations.name$,  % no idea how to access this nested list but author: nested list format is preferred according to docs
+                          \href{$it.email$}{$it.email$}
+                          }
+                $endif$
+                $sep$ \and
+        $endfor$
+        }
+
+
 \date{\today}
 
 \maketitle
 
 \input{05-abstract.qmd}
 
-\noindent\textbf{Keywords:} $keywords$ 
+\noindent\textbf{Keywords:} $keywords$
 
 
 \setcounter{page}{0}
