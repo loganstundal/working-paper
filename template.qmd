@@ -1,0 +1,15 @@
+---
+title: "template"
+---
+
+{{ < include 10-introduction.qmd > }}
+{{ < include 20-literature.qmd > }}
+{{ < include 30-data_methods.qmd > }}
+{{ < include 40-results.qmd > }}
+{{ < include 50-discussion.qmd > }}
+{{ < include 60-conclusion.qmd > }}
+
+<!-- {{ < include 80-bibliography.bib > }} -->
+<!-- {{ < include 90-appendix-a.qmd > }} -->
+<!-- {{ < include 91-figures.qmd > }} -->
+<!-- {{ < include 92-figures.qmd > }} -->
