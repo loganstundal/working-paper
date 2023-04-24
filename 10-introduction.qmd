@@ -1,3 +1,7 @@
 # Introduction
 
 This is the introduction.
+
+According to @doe-2023, blah blah. In parentheses Doe suggests Xyz [@doe-2023].
+
+Doe [-@doe-2023] also suggest and here we only cite the year.
