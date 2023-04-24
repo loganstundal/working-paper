@@ -1,5 +1,20 @@
 ---
 title: "template"
+
+keep-tex: true
+
+author:
+  - name: Logan Stundal
+    email: logan@stundal.com
+    affiliation:
+      name: University of Virginia, Biocomplexity Institute
+      city: Charlottesville
+      state: Virginia
+      country: USA
+
+bibliography: 80-bibliography.bib
+
+abstract: {{ < include 05-abstract.qmd > }}
 ---
 
 {{ < include 10-introduction.qmd > }}
@@ -9,7 +24,7 @@ title: "template"
 {{ < include 50-discussion.qmd > }}
 {{ < include 60-conclusion.qmd > }}
 
-<!-- {{ < include 80-bibliography.bib > }} -->
+{{ < include 80-bibliography.bib > }}
 <!-- {{ < include 90-appendix-a.qmd > }} -->
 <!-- {{ < include 91-figures.qmd > }} -->
 <!-- {{ < include 92-figures.qmd > }} -->
