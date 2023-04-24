@@ -3,14 +3,10 @@ title: "template"
 
 keep-tex: true
 
-author:
-  - name: Logan Stundal
-    email: logan@stundal.com
-    affiliation:
-      name: University of Virginia, Biocomplexity Institute
-      city: Charlottesville
-      state: Virginia
-      country: USA
+author: Logan Stundal
+author_affiliation: University of Virginia, Biocomplexity Institute
+author_contact: (stundal@virginia.edu)[stundal@virginia.edu]
+keywords: [kw1, kw2, kw3]
 
 format:
   pdf:
