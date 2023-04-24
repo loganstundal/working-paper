@@ -1,11 +1,12 @@
 ---
 title: "template"
-
+title_note: "Working paper prepared for xyz"
 keep-tex: true
 
 author: Logan Stundal
 author_affiliation: University of Virginia, Biocomplexity Institute
-author_contact: (stundal@virginia.edu)[stundal@virginia.edu]
+author_email: stundal@virginia.edu
+
 keywords: [kw1, kw2, kw3]
 
 format:
