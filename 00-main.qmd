@@ -12,10 +12,12 @@ author:
       state: Virginia
       country: USA
 
-contributes:
-  formats:
-    pdf:
-      include-in-header: 01-header.tex
+format:
+  pdf:
+    template-partials:
+      - tex/title.tex
+
+bibliography: 80-bibliography.bib
 ---
 
 {{ < include 10-introduction.qmd > }}
@@ -25,7 +27,8 @@ contributes:
 {{ < include 50-discussion.qmd > }}
 {{ < include 60-conclusion.qmd > }}
 
-{{ < include 80-bibliography.bib > }}
+# ----------------------------------------------------------------------------- #
+
 <!-- {{ < include 90-appendix-a.qmd > }} -->
 <!-- {{ < include 91-figures.qmd > }} -->
 <!-- {{ < include 92-figures.qmd > }} -->
