@@ -15,7 +15,7 @@ author:
 contributes:
   formats:
     pdf:
-      include-in-header: header.tex
+      include-in-header: 01-header.tex
 ---
 
 {{ < include 10-introduction.qmd > }}
