@@ -11,7 +11,7 @@ keywords: [kw1, kw2, kw3]
 format:
   pdf:
     template-partials:
-      - tex/title.tex
+      - tex/before-body.tex
 
 bibliography: 80-bibliography.bib
 ---
